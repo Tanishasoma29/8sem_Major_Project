@@ -3,22 +3,16 @@
 
 # [Web App Version of this Project](https://github.com/gaganmanku96/Finding-missing-person-using-AI/blob/master/more_projects.md)
 
-## [Youtube Link](https://www.youtube.com/channel/UC7ln87o0Gt8OkkHIqEmeDQw/videos)
 
 Hundreds of people (especially children go missing every day) in India. There are various <b>NGO's and Govt Initiatives</b> to help with it. This project tries to implement an  existing/new way to help.
 
 ## List of contents
-- ### [News Articles](#news-articles)
+
 - ### [Objective](#what-is-the-objective-of-this-project-and-how-will-it-help)
 - ### [Solution](#solution-projects-implementation)
 - ### [Installation](#how-to-run)
 - ### [What is left/not working?](#what-is-left)
 
-## News Articles
-#### [Article 1](https://www.thehindu.com/society/indias-missing-children-what-the-whatsapp-rumours-dont-tell-you/article24641527.ece)
-![News Article 1](resources/news_1.PNG)
-#### [Article 2](https://www.deccanchronicle.com/nation/current-affairs/250518/indias-children-174-go-missing-every-day-half-untraced.html)
-![News Article 2](resources/news_2.PNG)
 
 
 ## What is the objective of this Project and how will it help?
@@ -30,18 +24,21 @@ In such cases, the ideal approach is to go through CCTV footages and evidences. 
 The first step is to register a new case. The GUI application is built using <b>PyQT5</b> that allows you to collect all relevant information and store it in database <b>Postgres</b>.
 > Please ignore the SRK's image. It is just for the sake of project :)
 
-![New Case Window](resources/new_case.PNG)
+![New Case Window](![Screenshot (12)](https://github.com/user-attachments/assets/21932dad-3a97-43a8-80c8-88fe9b245551)
+)
 
 ### 2. Waiting for Users to submit images
 So far we have only talked about 'how new cases will be registered', the next thing we have to do is to match these registered cases but who do we match it with? This is where ours Users come in. These users are common people like you and me who wants to make a change in the society.<br>
 The common people will use an application on their mobile to submit photos of people who they think have lost or found begging while keeping them their identity anonymous. The anonymous part is very important because they fear of local <i>Gundas</i> that might create trouble for them.<br>
 > Mobile Application
-![Mobile Application](resources/mobile_application.PNG)
+![Mobile Application](![Screenshot (13)](https://github.com/user-attachments/assets/56d4d56d-972f-47e3-9504-1aa38433099a)
+)
 
 > An android Application can also be build and used but I have very little experience in it.
 ### 3. Matching Cases
 The next step is to match the case images and user submitted images. To match <b>KNN Algorithm </b> is used.
-![Main Application](resources/app_window.PNG)
+![Main Application](![Screenshot (8)](https://github.com/user-attachments/assets/6c17be25-ec9d-40d8-b99e-9feb092d79f7)
+)
 
 ## How to run
 #### 1. With Docker (Easy)
@@ -147,11 +144,6 @@ Once done you'll have to <b>Click on Refresh</b> button on train KNN Model and t
  - [ ] Unit tests
  
 
-## Developer:
-## <a href="https://www.linkedin.com/in/gaganmanku96/">Gagandeep Singh</a>
-## Endorse me at LinkedIn if this project was helpful. [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/gaganmanku96/)
 
 
-## Vote of Thanks
-- Thanks to [Davis King](https://github.com/davisking) for creating dlib and for providing the trained facial feature
-  detection and face encoding models used in this project.
+
